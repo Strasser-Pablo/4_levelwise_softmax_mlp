@@ -3,7 +3,7 @@ from __future__ import print_function
 from six.moves import cPickle as pickle
 import numpy as np
 import os
-from scipy.misc import imread
+from imageio import imread
 import platform
 from sklearn import datasets
 from sklearn.utils import shuffle
